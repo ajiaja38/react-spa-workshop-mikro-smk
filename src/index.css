@@ -23,7 +23,7 @@
 
 .list-products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3rem 0;
   padding: 2rem 0;
 }
@@ -164,9 +164,14 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+
   .preview-section {
     width: 100%;
     max-width: 320px;
     margin-bottom: 20px;
+  }
+
+  .list-products {
+    grid-template-columns: 1fr;
   }
 }
