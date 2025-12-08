@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Elektronik"
+  },
+  {
+    "id": 2,
+    "name": "Pakaian"
+  },
+  {
+    "id": 3,
+    "name": "Sepatu"
+  },
+  {
+    "id": 4,
+    "name": "Aksesoris"
+  }
+]
