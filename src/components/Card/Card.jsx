@@ -1,6 +1,7 @@
 import { ShoppingBasket } from "lucide-react"
 import "./style.css"
 import useLocalPrice from "../../hooks/useLocalPrice"
+import { NavLink } from "react-router"
 
 const Card = ({ id, imgUrl, category, title, price }) => {
   return (
@@ -13,12 +14,12 @@ const Card = ({ id, imgUrl, category, title, price }) => {
         <h3 className='product-title'>{title}</h3>
         <div className='card-footer'>
           <span className='price'>{useLocalPrice(price)}</span>
-          <a href={`/product/${id}`} style={{ textDecoration: "none" }}>
+          <NavLink to={`product/${id}`} style={{ textDecoration: "none" }}>
             <button className='btn-add'>
               <ShoppingBasket />
               Detail
             </button>
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>

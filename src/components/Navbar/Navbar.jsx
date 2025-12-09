@@ -21,7 +21,7 @@ const Navbar = () => {
           <NavLink to='/'>Beranda</NavLink>
         </li>
         <li>
-          <a href='/add-product'>Tambah Produk</a>
+          <NavLink to='/add-product'>Tambah Produk</NavLink>
         </li>
         <li>
           <a href='#categories'>Kategori</a>
