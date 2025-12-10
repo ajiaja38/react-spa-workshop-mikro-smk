@@ -32,7 +32,7 @@ const Form = ({ handleSubmit, handleChange, formData }) => {
             Pilih Kategori
           </option>
           {categories.map((category) => (
-            <option key={category.id} value={category.name}>
+            <option key={category._id} value={category.name}>
               {category.name}
             </option>
           ))}
