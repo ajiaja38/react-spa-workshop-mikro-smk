@@ -38,7 +38,7 @@ const AddProduct = () => {
       })
       Swal.fire({
         title: "Success!",
-        text: "Produk berhasil ditambahkan!",
+        text: "Produk berhasil ditambahkan",
         icon: "success",
       })
       navigate("/")
