@@ -8,7 +8,7 @@ import Swal from "sweetalert2"
 const Home = () => {
   const [products, setProducts] = useState([])
   const [page, setPage] = useState(1)
-  const [limit, setLimit] = useState(5)
+  const [limit, setLimit] = useState(4)
   const [totalPage, setTotalPage] = useState(1)
 
   useEffect(() => {
