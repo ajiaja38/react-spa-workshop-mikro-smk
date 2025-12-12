@@ -1,7 +1,8 @@
 import axios from "axios"
 
 export const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL:
+    "https://workshop-micro-smk-backend-expressjs-24hyizzv4.vercel.app/api",
   headers: {
     "Content-Type": "application/json",
   },
